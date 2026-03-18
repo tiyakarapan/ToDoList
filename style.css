@@ -78,19 +78,16 @@ li:hover {
   transform: translateX(5px);
 }
 
-/* Completed task style */
 .completed {
   text-decoration: line-through;
   opacity: 0.6;
 }
 
-/* Button group */
 li div {
   display: flex;
   gap: 5px;
 }
 
-/* Complete button */
 .complete-btn {
   background: #4caf50;
   border-radius: 8px;
@@ -101,7 +98,6 @@ li div {
   background: #3e8e41;
 }
 
-/* Delete button */
 .delete-btn {
   background: #ff4f4f;
   border-radius: 8px;

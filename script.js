@@ -6,11 +6,9 @@ function addTask() {
 
   const li = document.createElement("li");
 
-  // Task text
   const span = document.createElement("span");
   span.textContent = taskText;
 
-  // Complete button
   const completeBtn = document.createElement("button");
   completeBtn.textContent = "✔";
   completeBtn.classList.add("complete-btn");
@@ -19,7 +17,6 @@ function addTask() {
     span.classList.toggle("completed");
   };
 
-  // Delete button
   const deleteBtn = document.createElement("button");
   deleteBtn.textContent = "✖";
   deleteBtn.classList.add("delete-btn");
@@ -28,7 +25,6 @@ function addTask() {
     li.remove();
   };
 
-  // Button container
   const btnContainer = document.createElement("div");
   btnContainer.appendChild(completeBtn);
   btnContainer.appendChild(deleteBtn);
